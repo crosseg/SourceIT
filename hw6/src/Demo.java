@@ -6,7 +6,6 @@ public class Demo {
         gift.add(new ChocolateBar(8, "Milka"));
         gift.add(new Candy(5, "JuiceChew"));
         System.out.print(gift.toString());
-        gift.sort(new SortByWeight());
         System.out.print(gift.toString());
         gift.sort(new SortBySugar());
         System.out.print(gift.toString());
